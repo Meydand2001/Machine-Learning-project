@@ -96,3 +96,9 @@ def main(actual, predicted, name):
     print(accuracy)
 
     return f1, recall, accuracy
+
+
+# Note the confusion matrix coloums and row have a tags of numbers 0-8
+# it is a simple integer labeling of the different options of the odor feature.
+# The labeling is in order so 0 is the first odor option mentioned
+# at the information list, 1 is the second one, 2 is the third one and so on.
